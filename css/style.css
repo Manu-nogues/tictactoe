@@ -1,0 +1,27 @@
+.tablero{
+ justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-color: black;
+    height: 30vh;
+}
+
+
+#cel1{
+    height: 30vh;
+    
+    border: solid;
+    display: center;
+    background-position: center;
+}
+
+
+
+#cel2{
+    height: 30vh;
+   
+    border: solid;
+    display: center;
+    background-position: center;
+}
