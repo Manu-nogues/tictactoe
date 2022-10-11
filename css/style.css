@@ -1,27 +1,22 @@
 .tablero{
- justify-content: center;
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     border-color: black;
-    height: 30vh;
+    height: 20em;
+    background-color: blueviolet;   
 }
 
+.caja{
 
-#cel1{
-    height: 30vh;
-    
-    border: solid;
-    display: center;
-    background-position: center;
+border: 2px solid;
+margin: 1%;
 }
 
+.techo{
+background-color: brown;
+height: 15vh;
 
-
-#cel2{
-    height: 30vh;
-   
-    border: solid;
-    display: center;
-    background-position: center;
 }
+
