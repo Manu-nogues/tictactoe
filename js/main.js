@@ -1,5 +1,7 @@
-let interruptor=true;
 
+
+
+let interruptor=true;
 let casillas = Array.from(document.getElementsByClassName("caja"))
     casillas.map((casilla, /*index*/)=>{
         casilla.addEventListener ("click", ()=>{
@@ -9,3 +11,9 @@ let casillas = Array.from(document.getElementsByClassName("caja"))
             };
         });
     });
+
+    function reset() {
+        document.querySelectorAll(".caja").forEach((casilla) => {
+          casilla.innerHTML = "";
+        });
+      }
